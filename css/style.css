@@ -206,6 +206,10 @@ body {
   text-align: center;
   font-size: 1rem;
 }
+.form-container p {
+  text-align: left;
+  font-size: 0.8rem;
+}
 
 .form-container form {
   width: 100%;
@@ -239,6 +243,11 @@ body {
   border-radius: 20px;
   margin: 1rem auto;
   cursor: pointer;
+}
+
+.form-container .checkout-button.disabled {
+  background-color: #999;
+  cursor: not-allowed;
 }
 
 /* Hero Section */
